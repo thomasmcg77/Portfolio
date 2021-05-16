@@ -1,0 +1,36 @@
+header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-left {
+  display: flex;
+}
+
+.header-right {
+  align-items: center;
+  display: flex;
+  position: fixed;
+  right: 100px;
+  justify-content: space-between;
+  float: right;
+}
+
+.icon {
+  margin: 10px;
+}
+
+.icon:hover {
+  color: rgb(0, 162, 255);
+  transition: 0.4s;
+}
+
+.typewriter {
+  height: auto;
+  margin-left: 15px;
+  font-size: xx-large;
+}
