@@ -3,6 +3,7 @@ import "./Header.css";
 import Typewriter from "typewriter-effect";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
+import linkedIn from "./animatedLinkedInIcon.svg";
 
 function Header() {
   return (
@@ -14,7 +15,7 @@ function Header() {
               onInit={(typewriter) => {
                 typewriter
 
-                  .typeString("Hello, world")
+                  .typeString("Hello, world.")
 
                   .pauseFor(1000)
                   .deleteAll()
@@ -22,14 +23,24 @@ function Header() {
                   .typeString("I am")
                   .pauseFor(1000)
                   .deleteAll()
-                  .typeString("Thomas Mcgui")
+                  .typeString("Thomas X Mcgui")
                   .pauseFor(300)
                   .deleteChars(3)
                   .pauseFor(300)
-                  .typeString("Guigan")
+                  .typeString("Guigan.")
                   .start();
               }}
             />
+          </div>
+        </div>
+        <div className="header-middle">
+          <div class="dropdown">
+          <button class="dropbtn">Projects</button>
+            <div class="dropdown-content">
+              <a href="#">About</a>
+              <a href="#">Projects</a>
+              <a href="#">Contact</a>
+            </div>
           </div>
         </div>
         <div className="header-right">
