@@ -1,14 +1,15 @@
 .card {
-    width: 350px;
-    min-width: 350px;
-    border-style: solid;
-    border-radius: 5px;
-    border-width: 1px;
-    margin: 15px;
-    padding: 10px;
-    text-align: center;
+  width: 350px;
+  min-width: 350px;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
+  z-index: 1;
 }
 
 .image {
-    max-width: 350px;
+  max-width: 350px;
 }

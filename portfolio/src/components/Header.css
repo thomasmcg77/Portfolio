@@ -3,8 +3,12 @@ header {
   display: flex;
   align-items: center;
   top: 0;
-  width: 100vw;
+  max-width: 99vw;
   flex-direction: row;
+}
+
+a {
+  color: white;
 }
 
 .header-left {
@@ -14,18 +18,17 @@ header {
 .header-middle {
   align-items: center;
   display: flex;
+  flex: 1;
   justify-content: center;
-  right: 45vw;
-  position: fixed;
+  height: max-content;
 }
 
 .header-right {
   align-items: center;
   display: flex;
-  position: fixed;
-  right: 70px;
-  justify-content: space-between;
-  float: right;
+  justify-content: center;
+  float: left;
+  width: 310px;
 }
 
 .icon {
@@ -41,6 +44,7 @@ header {
   height: auto;
   margin-left: 15px;
   font-size: xx-large;
+  width: 310px;
 }
 
 .dropbtn {
@@ -52,6 +56,8 @@ header {
   font-size: xx-large;
   justify-content: center;
   align-items: center;
+  height: 60px;
+  margin-bottom: 15px;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -66,10 +72,10 @@ header {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 2;
   justify-content: center;
   align-items: center;
 }
@@ -83,12 +89,17 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
+  z-index: 2;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */

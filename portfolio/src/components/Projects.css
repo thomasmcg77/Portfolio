@@ -1,0 +1,16 @@
+.home-row {
+  display: flex;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  pad: 20px;
+  height: fit-content;
+  width: auto;
+  align-items: center;
+  margin: 100px;
+  z-index: 1;
+}
