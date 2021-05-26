@@ -9,7 +9,6 @@ function ProjectCard({projectName, projectType, projectDescription}) {
 
   return (
     <div className="card">
-      <img src={noaaImg} className="image" />
       <h2>{projectName}</h2>
       <h3>{projectDescription}</h3>
     </div>

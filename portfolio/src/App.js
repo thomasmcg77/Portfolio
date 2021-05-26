@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Header from "./components/Header.js";
 import Projects from "./components/Projects.js";
 import About from "./components/About.js";
+import Contact from "./components/Contact.js"
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
             </Route>
             <Route path="/projects">
               <Projects />
+            </Route>
+            <Route path="/contact">
+              <Contact />
             </Route>
             <Route path="/">
               <About />

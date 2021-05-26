@@ -29,19 +29,15 @@ function Header() {
               onInit={(typewriter) => {
                 typewriter
 
-                  .typeString("Hello, world.")
+                  .typeString("hello, world.")
 
                   .pauseFor(1000)
                   .deleteAll()
                   .pauseFor(300)
-                  .typeString("I am")
+                  .typeString("i am")
                   .pauseFor(1000)
                   .deleteAll()
-                  .typeString("Thomas Mcgui")
-                  .pauseFor(300)
-                  .deleteChars(3)
-                  .pauseFor(300)
-                  .typeString("Guigan.")
+                  .typeString("thomas x mcguigan.")
                   .start();
               }}
             />
@@ -49,16 +45,16 @@ function Header() {
         </div>
         <div className="header-middle">
           <div class="dropdown">
-            <button class="dropbtn">{current}</button>
+            <button class="dropbtn">me.</button>
             <div class="dropdown-content">
               <a href="/about" onClick={handleAbout}>
-                About
+                about.
               </a>
               <a href="/projects" onClick={handleProjects}>
-                Projects
+                projects.
               </a>
               <a href="/contact" onClick={handleContact}>
-                Contact
+                contact.
               </a>
             </div>
           </div>
