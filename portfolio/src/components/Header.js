@@ -6,20 +6,6 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import linkedIn from "./animatedLinkedInIcon.svg";
 
 function Header() {
-  const [current, setCurrent] = useState("About");
-
-  function handleAbout() {
-    setCurrent("About");
-  }
-
-  function handleProjects() {
-    setCurrent("Projects");
-  }
-
-  function handleContact() {
-    setCurrent("Contact");
-  }
-
   return (
     <div>
       <header>
@@ -47,15 +33,9 @@ function Header() {
           <div class="dropdown">
             <button class="dropbtn">me.</button>
             <div class="dropdown-content">
-              <a href="/about" onClick={handleAbout}>
-                about.
-              </a>
-              <a href="/projects" onClick={handleProjects}>
-                projects.
-              </a>
-              <a href="/contact" onClick={handleContact}>
-                contact.
-              </a>
+              <a href="/about">about.</a>
+              <a href="/projects">projects.</a>
+              <a href="/contact">contact.</a>
             </div>
           </div>
         </div>

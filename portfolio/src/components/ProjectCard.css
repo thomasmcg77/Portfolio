@@ -1,6 +1,7 @@
 .card {
-  width: 350px;
-  min-width: 350px;
+  width: 100%;
+  max-height: 400px;
+  min-width: 200px;
   border-style: solid;
   border-radius: 5px;
   border-width: 1px;
@@ -10,6 +11,11 @@
   z-index: 1;
 }
 
-.image {
-  max-width: 350px;
+a {
+  text-decoration: none;
+}
+
+.card:hover {
+  border-color: rgb(0, 162, 255);
+  transition: 0.4s;
 }
