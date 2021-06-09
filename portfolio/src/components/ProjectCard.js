@@ -1,7 +1,5 @@
 import React from "react";
 import "./ProjectCard.css";
-import arduinoImg from "./arduino.png";
-import noaaImg from "./noaa_thumbnail.png";
 
 function ProjectCard({
   projectName,
@@ -9,8 +7,6 @@ function ProjectCard({
   projectDescription,
   projectLink,
 }) {
-  const projectTypes = ["arduino", "raspberry pi", "java", "react"];
-  const thumbnail = noaaImg;
 
   return (
     <div className="card">
