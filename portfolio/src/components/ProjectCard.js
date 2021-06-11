@@ -12,7 +12,7 @@ function ProjectCard({
     <div className="card">
       <a href={projectLink}>
         <h2>{projectName}</h2>
-        <h3>{projectDescription}</h3>
+        <p>{projectDescription}</p>
       </a>
     </div>
   );

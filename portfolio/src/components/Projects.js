@@ -8,42 +8,42 @@ function Projects() {
       <div className="card-container">
         <div className="home-row">
           <ProjectCard
-            projectName="GPSafe"
+            projectName="gpsafe."
             projectType="Arduino, Reactjs"
             projectLink="https://github.com/thomasmcg77"
-            projectDescription="DISCLAIMER: JUST BEGAN PROJECT. GPSafe will use an Arduino with a lte shield. The Arduino will use dweet.io to send data to the cloud. There will be a website to display the current location of the device. The idea is to use it as a tracker in your car or bag in case of the event that it gets stolen. The arduino code will be written in C and the website will be developed with Reactjs."
+            projectDescription="DISCLAIMER: JUST BEGAN PROJECT. GPSafe will use an Arduino with a lte shield. the Arduino will use dweet.io to send data to the cloud. there will be a website to display the current location of the device. the idea is to use it as a tracker in your car or bag in case of the event that it gets stolen. the arduino code will be written in C and the website will be developed with reactjs."
           />
           <ProjectCard
-            projectName="SimpleWeather"
+            projectName="simple weather."
             projectType="Reactjs"
             projectLink="https://github.com/thomasmcg77/simpleweather"
-            projectDescription="DISCLAIMER: STILL IN PROGRESS. SimpleWeather is a weather website that shows the weekly forcast. It uses the OpenWeatherMap API to get the weather data. Written in Reactjs using the Ant Design UI library."
+            projectDescription="simple weather is a weather website that shows the weekly forcast. it uses the OpenWeatherMap api to get the weather data. written in reactjs using the Ant Design ui library."
           />
           <ProjectCard
-            projectName="Connect 4"
+            projectName="connect 4."
             projectType="Java"
             projectLink="https://github.com/thomasmcg77/Connect4"
-            projectDescription="This Connect 4 game was developed using Java and its Swing API. It was made in colaberation with Robert Lanier and Katherine Sweet."
+            projectDescription="this connect 4 game was developed using java and its swing api. It was made in colaberation with Robert Lanier and Katherine Sweet."
           />
         </div>
         <div className="home-row">
           <ProjectCard
-            projectName="Easy Grow"
+            projectName="easy grow."
             projectType="Reactjs"
             projectLink="https://github.com/thomasmcg77/easygrow"
-            projectDescription="EasyGrow is a test E-Commerce website that 'sells' smart grow technologies. The general design and layout is based off of the Amazon website. It was created using Reactjs and the Material UI Library. It also includes payment functionality with Stripe."
+            projectDescription="easy grow is a test e-commerce website that 'sells' smart grow technologies. the general design and layout is based off of the amazon website. it was created using reactjs and the material ui library. it also includes payment functionality with stripe."
           />
           <ProjectCard
-            projectName="Garduino"
+            projectName="garduino."
             projectType="Arduino, C"
             projectLink="https://github.com/thomasmcg77"
-            projectDescription="Garduino is an automated plant watering system. It uses an arduino with C code to read data from a moisture sensor and run a water pump when needed."
+            projectDescription="garduino is an automated plant watering system. it uses an arduino with C code to read data from a moisture sensor and run a water pump when needed."
           />
           <ProjectCard
-            projectName="NOAA Satellite Receiver"
+            projectName="noaa satellite receiver."
             projectType="Raspberry Pi"
             projectLink="https://github.com/thomasmcg77/NOAA_Satellite_Reciever"
-            projectDescription="This project uses a handmade quadrifilar helix antenna to receive signals from overpassing satellites. The signals are sent to a Raspberry Pi using a software defined radio. The raspberry pi uses bash scripts to determine times to read data and automate the signal reading process, then saves the images for viewing."
+            projectDescription="this project uses a handmade quadrifilar helix antenna to receive signals from overpassing satellites. the signals are sent to a raspberry pi using a software defined radio. the raspberry pi uses bash scripts to determine times to read data and automate the signal reading process, then saves the images for viewing."
           />
         </div>
       </div>
